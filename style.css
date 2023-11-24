@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.background_body{
+    background-image: url(./PHero-Tube/bg-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* published date */
+.published_date{
+    position: relative;
+    margin-top: -50px;
+    padding-left: 10rem;
+   
+}
+
