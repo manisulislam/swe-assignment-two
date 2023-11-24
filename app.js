@@ -46,7 +46,7 @@ function displaySingle(single){
         div.classList.add("col-lg-4");
         div.classList.add("col-sm-12");
         div.innerHTML=`
-        <div class="card col-lg-4 col-sm-12" style="width: 18rem; height: 32rem;">
+        <div class="card col-lg-4 col-sm-12" style="width: 18rem; height: 35rem;">
         <img style="height:12rem"   src=${item?.thumbnail} class="card-img-top" alt="...">
         <p class="card-text published_date"> <span class="text-dark bg-white p-1">
         ${parseInt(parseInt(item?.others.posted_date)/3600)} hrs ${parseInt(parseInt(item?.others.posted_date)/1800)} min ago
