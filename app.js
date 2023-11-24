@@ -9,8 +9,9 @@ function displayCategory(categories){
     const categoryContainer = document.getElementById("category-container");
     categories.forEach(item => {
         const button = document.createElement("button");
-        button.classList.add("btn");
-        button.classList.add("btn-outline-success");
+        button.classList.add("border");
+        button.classList.add("border-0");
+        
         button.innerHTML=`
         <button onclick="single(${item?.category_id})" type="button" class="btn btn-outline-danger">
             ${item?.category}
