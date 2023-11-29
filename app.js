@@ -64,7 +64,7 @@ function displaySingle(info_data){
             ${verified(item)}
             </div>
             
-            <p class="card-text">${item?.others.views}views</p>
+            <p class="card-text">${item?.others.views} views</p>
             
     
             </div>
