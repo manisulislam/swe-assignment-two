@@ -17,32 +17,69 @@
 <body>
     
     <!-- navbar start -->
-    <nav class="container-fluid shadow-lg navbar navbar-expand-lg bg-body-tertiary navbar-expand-sm">
-        <div class="container-fluid m-2 ">
-          <div class="m-5">
-            <img class="img-fluid mr-5" src="./PHero-Tube/Logo.png" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+    <!-- <nav class="container-fluid shadow-lg navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid m-2  align-items-center justify-content-between gap-5">
+          <div>
+            <div class="d-flex align-items-space-around justify-content-between gap-5">
+              <div>
+                <img class="img-fluid ml-5 mr-5" src="./PHero-Tube/Logo.png" alt="">
+              </div>
+            <div>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            </div>
           </div>
-          <div class="collapse navbar-collapse  gap-5" id="navbarSupportedContent">
+          <div>
+            <div class="collapse navbar-collapse  gap-5" id="navbarSupportedContent">
             
-            <button onclick="sort_dsc_by_views()" class="btn btn-outline-danger ">Sort by view</button>
-            <a href="./blog.html">
-                <button class="btn btn-outline-danger ml-5" type="submit">Blog</button>
-            </a>
+              <button onclick="sortByViews()" class="btn btn-outline-danger mr-5">Sort by view</button>
+              <a target="_blank" href="./blog.html">
+                  <button class="btn btn-outline-danger ml-5" type="submit">Blog</button>
+              </a>
+            </div>
           </div>
         </div>
-      </nav>
+      </nav> -->
+
+<!-- anis -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="img-fluid ml-5 mr-5" src="./PHero-Tube/Logo.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item d-flex gap-5 ">
+          <div >
+            <button onclick="sortByViews()" class="btn btn-outline-danger">Sort by view</button>
+          </div>
+              <div>
+                <a target="_blank" href="./blog.html">
+                  <button class="btn btn-outline-danger ml-5" type="submit">Blog</button>
+              </a>
+              </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    
     <!-- navbar end -->
 
     <!-- category start -->
-    <div id="category-container" class="container m-5 d-flex justify-content-center align-items-center gap-2">
+    <div id="category-container" class="container mt-5 mb-5 d-flex justify-content-center align-items-center gap-2">
     </div>
     <!-- category end -->
     
     <!-- single card start-->
-    <div id="single-container" class="container row gap-3">
+    <div id="single-container" class="container d-flex flex-wrap justify-content-center align-items-center gap-4 ">
         
 
     </div>

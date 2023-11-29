@@ -1,7 +1,8 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+   
 }
 .background_body{
     background-image: url(./PHero-Tube/bg-image.jpeg);
@@ -14,8 +15,8 @@
 /* published date */
 .published_date{
     position: relative;
-    margin-top: -50px;
-    padding-left: 10rem;
+    margin-top: -55px;
+    padding-left: 8rem;
    
 }
 
